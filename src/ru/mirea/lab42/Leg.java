@@ -1,6 +1,6 @@
 package ru.mirea.lab42;
 
-public abstract class Leg {
+public class Leg {
     public void DoMove (){
         System.out.println("Leg is moving");
     }
