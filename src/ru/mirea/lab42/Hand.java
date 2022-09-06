@@ -1,8 +1,11 @@
 package ru.mirea.lab42;
 
-public class Hand {
-
-    public void DoFight (){
+interface Hand {
+    default void DoFight (){
         System.out.println("Hand is Fighting");
+    }
+
+    default void DoEat (){
+        System.out.println("Eating");
     }
 }
