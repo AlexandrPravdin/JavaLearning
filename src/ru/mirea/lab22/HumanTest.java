@@ -1,4 +1,4 @@
-package ru.mirea.lab42;
+package ru.mirea.lab22;
 
 public class HumanTest {
     public static void main(String[] args) {
@@ -7,5 +7,4 @@ public class HumanTest {
         System.out.println();
         h.DoEating();
     }
-
 }

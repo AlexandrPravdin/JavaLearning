@@ -1,4 +1,4 @@
-package ru.mirea.lab3;
+package ru.mirea.lab1;
 
 import java.util.Arrays;
 import java.util.Scanner;

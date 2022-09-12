@@ -1,4 +1,4 @@
-package ru.mirea.lab42;
+package ru.mirea.lab22;
 
 interface Head {
     default void DoThink (){
