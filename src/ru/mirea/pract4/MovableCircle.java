@@ -4,10 +4,8 @@ public class MovableCircle implements Movable{
     private int radius;
     private MovablePoint center;
 
-
-
-
-
+    public MovableCircle(int x, int y, int xSpeed, int ySpeed, int radius) {
+    }
 
     @Override
     public void moveUp() {}

@@ -1,19 +1,22 @@
 package ru.mirea.pract4;
 
 public class MovablePoint implements Movable{
-    Package int x;
-    Package int y;
-    Package int xSpeed;
-    Package int ySpeed;
-
+    int x;
+    int y;
+    int xSpeed;
+    int ySpeed;
     private MovableCircle movableCircle;
 
-
-
-
-
-
-
+    @Override
+    public String toString() {
+        return "MovablePoint{" +
+                "x=" + x +
+                ", y=" + y +
+                ", xSpeed=" + xSpeed +
+                ", ySpeed=" + ySpeed +
+                ", movableCircle=" + movableCircle +
+                '}';
+    }
 
     @Override
     public void moveUp() {}
