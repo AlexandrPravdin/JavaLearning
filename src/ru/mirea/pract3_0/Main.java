@@ -1,6 +1,6 @@
 package ru.mirea.pract3_0;
 
-public class Main {
+public class Main {/*
     public static void main(String[] args) {
         Shape s1 = new Circle(5.5, "RED", false); // Upcast Circle to Shape
         //Circle s1 = new Circle(5.5, "RED", false);
@@ -54,5 +54,5 @@ public class Main {
         System.out.println(sq1.getColor());
         System.out.println(sq1.getSide());
         System.out.println(sq1.getLength());
-    }
+    }*/
 }
