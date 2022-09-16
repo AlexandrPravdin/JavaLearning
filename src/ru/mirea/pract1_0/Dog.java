@@ -1,4 +1,4 @@
-package ru.mirea.pract1;
+package ru.mirea.pract1_0;
 
 public class Dog {
     private String name;

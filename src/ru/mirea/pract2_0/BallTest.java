@@ -1,4 +1,4 @@
-package ru.mirea.pract2;
+package ru.mirea.pract2_0;
 
 public class BallTest {
     public static void main(String[] args){

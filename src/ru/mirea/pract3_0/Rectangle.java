@@ -1,4 +1,4 @@
-package ru.mirea.pract3;
+package ru.mirea.pract3_0;
 
 public class Rectangle extends Shape {
     protected double width;

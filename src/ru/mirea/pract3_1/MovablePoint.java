@@ -1,4 +1,4 @@
-package ru.mirea.pract4;
+package ru.mirea.pract3_1;
 
 public class MovablePoint implements Movable{
     int x;

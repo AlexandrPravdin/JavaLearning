@@ -1,4 +1,4 @@
-package ru.mirea.pract4;
+package ru.mirea.pract3_1;
 
 public interface Movable {
     void moveUp();

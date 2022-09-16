@@ -1,4 +1,4 @@
-package ru.mirea.lab22;
+package ru.mirea.lab2_2;
 
 public class HumanTest {
     public static void main(String[] args) {

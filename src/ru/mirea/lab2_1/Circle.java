@@ -1,4 +1,4 @@
-package ru.mirea.lab21;
+package ru.mirea.lab2_1;
 
 import java.awt.*;
 
