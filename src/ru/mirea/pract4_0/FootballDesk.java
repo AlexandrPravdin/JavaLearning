@@ -16,6 +16,8 @@ public class FootballDesk extends JFrame{
     JLabel label = new JLabel("Result " + milanNum + "x" + realNum, SwingConstants.CENTER);
     JLabel scoreLabel = new JLabel("Last Scorer: N/A", SwingConstants.CENTER);
 
+
+
     public FootballDesk(){
         super("Match");
         setSize(400, 200);
@@ -26,6 +28,8 @@ public class FootballDesk extends JFrame{
         add(scoreLabel,BorderLayout.NORTH);
         milanBttn.setPreferredSize(new Dimension(100, 100));
         realBttn.setPreferredSize(new Dimension(100, 100));
+
+
         realBttn.addActionListener(new realActionListener(){
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -33,6 +37,7 @@ public class FootballDesk extends JFrame{
                 label.setText("Result " + realNum + "x" + milanNum);
             }
         });
+
         milanBttn.addActionListener(new milanActionListener(){
             @Override
             public void actionPerformed(ActionEvent e) {
