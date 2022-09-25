@@ -7,6 +7,6 @@ public class Main {
         p.eating();
         t.eating();
         p.washngTime();
-        p.toString();
+        System.out.println(p);
     }
 }
