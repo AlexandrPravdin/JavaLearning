@@ -32,7 +32,8 @@ public class Game {
         }
         if (p1.GetSize() == 0) {
             System.out.println("player 1 ");
-        } else System.out.println(" player 2 ");
+        } else System.out.println("player 2 ");
         System.out.println(count);
+        return;
     }
 }
