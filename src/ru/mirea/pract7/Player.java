@@ -3,10 +3,9 @@ package ru.mirea.pract7;
 import java.util.Stack;
 
 public class Player {
-    int numbers;
     Stack<Integer> card = new Stack<>();
 
-    void Player() {
+    void FeelMeBro() {
         int[] arr = new int[]{10,10,10,10,10};
 
         int math;

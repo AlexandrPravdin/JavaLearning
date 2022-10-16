@@ -3,13 +3,17 @@ package ru.mirea.pract7;
 import java.util.Scanner;
 
 public class Game {
-    private Player p1 = new Player();
-    private Player p2 = new Player();
+    private Player p1;
+    private Player p2;
 
-    void Game() {
+    public Game(Player p1, Player p2) {
+        this.p1 = p1;
+        this.p2 = p2;
+    }
+
+
+    void startGame() {
         int count = 0;
-        p1.Player();
-        p2.Player();
         while (p1.GetSize() != 0 && p2.GetSize() != 0) {
             if (count == 106){
                 System.out.println("Botva");
@@ -19,7 +23,7 @@ public class Game {
             int p1Top = p1.GetTop();
             int p2top = p2.GetTop();
             //System.out.println("player 1 is " + p1Top + " player 2 is " + p2top);
-            if (p1Top > p2top || (p1Top == 0 && p2top == 9)) {
+            if ((p1Top > p2top) || (p1Top == 0 && p2top == 9)) {
                 p1.Win(p2top);
                 p2.Lose();
             } else if (p1Top < p2top || (p1Top == 9 && p2top == 0)) {
@@ -34,6 +38,6 @@ public class Game {
             System.out.println("player 1 ");
         } else System.out.println("player 2 ");
         System.out.println(count);
-        return;
+
     }
 }

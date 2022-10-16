@@ -6,15 +6,16 @@ import java.util.Scanner;
 public class Array {
     private int[] arr = new int[10];
     private Scanner sc = new Scanner(System.in);
-    public void InputArray (){
-        for (int i = 0; i < 10; i ++){
+
+    public void InputArray() {
+        for (int i = 0; i < 10; i++) {
             arr[i] = sc.nextInt();
         }
     }
 
-    public int SummArray(){
+    public int SummArray() {
         int summ = 0;
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < 10; i++) {
             summ += arr[i];
         }
         return summ;
