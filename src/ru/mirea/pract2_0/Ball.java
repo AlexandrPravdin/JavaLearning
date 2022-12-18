@@ -35,5 +35,11 @@ public class Ball {
         this.y += yDisp;
     }
 
-
+    @Override
+    public String toString() {
+        return "Ball{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
 }

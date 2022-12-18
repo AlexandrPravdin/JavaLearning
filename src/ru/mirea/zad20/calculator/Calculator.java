@@ -46,8 +46,8 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
-        System.out.printf("5 + 6 = %1$s\n", sum(Integer.valueOf(5), Integer.valueOf(6)));
-        System.out.printf("5.5 - 6.1 = %1$s\n", subtraction(5.5, 6.1));
-        System.out.printf("5.2 * 7.2 = %1$s\n", multiply(5.2f, 7.2f));
+        System.out.printf("8 + 9 = %1$s\n", sum(Integer.valueOf(8), Integer.valueOf(9)));
+        System.out.printf("5.4 - 9.1 = %1$s\n", subtraction(5.4, 9.1));
+        System.out.printf("4.7 * 7.2 = %1$s\n", multiply(4.7f, 7.2f));
     }
 }

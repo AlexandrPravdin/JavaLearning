@@ -42,11 +42,11 @@ public class Student {
     }
 
     public String toString() {
-        return String.format("User name - %1$s %2$s, birthday - %3$s", this.name, this.surname, this.dateFormat.format(this.birthday.getTime()));
+        return String.format("Name - %1$s %2$s, birthday - %3$s", this.name, this.surname, this.dateFormat.format(this.birthday.getTime()));
     }
 
     public static void main(String[] args) {
-        Student student = new Student("Nik", "Potter", new Date(), "dd.MM.yyyy");
+        Student student = new Student("Anton", "Ivanov", new Date(), "dd.MM.yyyy");
         System.out.println(student);
     }
 }

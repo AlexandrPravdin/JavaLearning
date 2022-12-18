@@ -2,7 +2,7 @@ package ru.mirea.zad21.convert;
 
 public class Main {
     public static void main(String[] args) {
-        Integer[] integers = {52, 12, 85, -1};
+        Integer[] integers = {61, 15, 91, -2};
         Conversion<Integer> conversionInt = new Conversion<>(integers);
         conversionInt.showList();
 

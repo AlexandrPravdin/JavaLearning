@@ -17,8 +17,8 @@ public class MVCEmployeeDemo {
 
     public static Employee retriveEmployeeFromDatabase() {
         Employee employee = new Employee();
-        employee.setName("Nikita");
-        employee.setSalary(50000);
+        employee.setName("Vova");
+        employee.setSalary(4000);
         return employee;
     }
 }
