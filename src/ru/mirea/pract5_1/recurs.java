@@ -14,6 +14,6 @@ public class recurs {
         for (int i = 0; i < now; i++) {
             System.out.print(now + " ");
         }
-        rec(now+1);
+        rec(now + 1);
     }
 }

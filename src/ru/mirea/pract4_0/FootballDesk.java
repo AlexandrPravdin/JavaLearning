@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class FootballDesk extends JFrame{
+public class FootballDesk extends JFrame {
 
     private JButton milanBttn = new JButton("AC Milan");
 
@@ -17,20 +17,19 @@ public class FootballDesk extends JFrame{
     JLabel scoreLabel = new JLabel("Last Scorer: N/A", SwingConstants.CENTER);
 
 
-
-    public FootballDesk(){
+    public FootballDesk() {
         super("Match");
         setSize(400, 200);
-        add(milanBttn,BorderLayout.EAST);
-        add(realBttn,BorderLayout.WEST);
-        add(label,BorderLayout.CENTER);
-        add(endGame,BorderLayout.SOUTH);
-        add(scoreLabel,BorderLayout.NORTH);
+        add(milanBttn, BorderLayout.EAST);
+        add(realBttn, BorderLayout.WEST);
+        add(label, BorderLayout.CENTER);
+        add(endGame, BorderLayout.SOUTH);
+        add(scoreLabel, BorderLayout.NORTH);
         milanBttn.setPreferredSize(new Dimension(100, 100));
         realBttn.setPreferredSize(new Dimension(100, 100));
 
 
-        realBttn.addActionListener(new realActionListener(){
+        realBttn.addActionListener(new realActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 realNum++;
@@ -38,23 +37,22 @@ public class FootballDesk extends JFrame{
             }
         });
 
-        milanBttn.addActionListener(new milanActionListener(){
+        milanBttn.addActionListener(new milanActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 milanNum++;
                 label.setText("Result " + realNum + "x" + milanNum);
             }
         });
-        endGame.addActionListener(new endActionListener(){
+        endGame.addActionListener(new endActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if (realNum < milanNum){
-                label.setText("Winner: AC Milan " + realNum + "x" + milanNum);
-                scoreLabel.setText("Last Scorer: Milan");
-                }
-                else {
-                    label.setText("Winner: Real Madrid " + realNum + "x" + milanNum );
+                if (realNum < milanNum) {
+                    label.setText("Winner: AC Milan " + realNum + "x" + milanNum);
+                    scoreLabel.setText("Last Scorer: Milan");
+                } else {
+                    label.setText("Winner: Real Madrid " + realNum + "x" + milanNum);
                     scoreLabel.setText("Last Scorer: Madrid");
                 }
 
@@ -66,20 +64,20 @@ public class FootballDesk extends JFrame{
     }
 }
 
-class realActionListener implements ActionListener{
+class realActionListener implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
     }
 }
 
-class milanActionListener implements ActionListener{
+class milanActionListener implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
 
     }
 }
 
-class endActionListener implements ActionListener{
+class endActionListener implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
 

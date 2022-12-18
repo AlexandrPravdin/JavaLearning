@@ -15,7 +15,7 @@ public class Game {
     void startGame() {
         int count = 0;
         while (p1.GetSize() != 0 && p2.GetSize() != 0) {
-            if (count == 106){
+            if (count == 106) {
                 System.out.println("Botva");
                 return;
             }

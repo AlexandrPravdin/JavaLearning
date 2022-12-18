@@ -8,6 +8,7 @@ public abstract class Dish {
         this.weight = weight;
         this.depth = depth;
     }
+
     abstract public void eating();
 }
 

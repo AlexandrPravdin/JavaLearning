@@ -1,6 +1,6 @@
 package ru.mirea.lab4;
 
-public class MitsEvolution implements Priceable{
+public class MitsEvolution implements Priceable {
     private int price = 1500000;
 
     @Override

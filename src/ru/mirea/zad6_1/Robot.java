@@ -1,6 +1,6 @@
 package ru.mirea.zad6_1;
 
-public class Robot implements Moveable{
+public class Robot implements Moveable {
 
     @Override
     public void moveRight() {

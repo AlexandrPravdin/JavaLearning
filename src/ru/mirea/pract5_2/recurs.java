@@ -7,9 +7,9 @@ public class recurs {
         this.n = n;
     }
 
-    void rec (int r){
+    void rec(int r) {
         if (n == r) return;
         System.out.print(r + " ");
-        rec(r+1);
+        rec(r + 1);
     }
 }

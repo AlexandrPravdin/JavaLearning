@@ -1,7 +1,8 @@
 package ru.mirea.lab3;
 
-class Plate extends Dish{
+class Plate extends Dish {
     private int eatingTime = 10;
+
     public Plate(int weight, int depth) {
         super(weight, depth);
     }  //тарелка

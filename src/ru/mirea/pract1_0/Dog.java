@@ -52,7 +52,7 @@ public class Dog {
         this.breed = breed;
     }
 
-    public void DogPassport (){
+    public void DogPassport() {
         System.out.println("Dog's Name = " + name + "\nDog's age = " + age + "\nDog's Weight = " + weight + "\nDog's Breed = " + breed);
     }
 
@@ -67,6 +67,6 @@ public class Dog {
     }
 
     public String ToHumanAge() {
-        return (name+"'s age in human years is "+age*7+" years");
+        return (name + "'s age in human years is " + age * 7 + " years");
     }
 }

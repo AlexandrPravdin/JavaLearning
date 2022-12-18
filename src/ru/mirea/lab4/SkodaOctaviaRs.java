@@ -1,6 +1,6 @@
 package ru.mirea.lab4;
 
-public class SkodaOctaviaRs implements Priceable{
+public class SkodaOctaviaRs implements Priceable {
     private int price = 1000000;
 
     @Override

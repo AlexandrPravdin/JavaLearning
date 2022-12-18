@@ -1,6 +1,6 @@
 package ru.mirea.zad6_6;
 
-public class TEsT{
+public class TEsT {
     public static void main(String[] args) {
         Book bk = new Book();
         Shop sp = new Shop();

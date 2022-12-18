@@ -1,6 +1,6 @@
 package ru.mirea.zad6_1;
 
-public class Transport implements Moveable{
+public class Transport implements Moveable {
     @Override
     public void moveRight() {
         System.out.println("Транспортное средство двигается вправо");
@@ -11,11 +11,11 @@ public class Transport implements Moveable{
         System.out.println("Транспортное средство двигается влево");
     }
 
-    public void stop(){
+    public void stop() {
         System.out.println("Транспортное средство остановилось");
     }
 
-    public void start(){
+    public void start() {
         System.out.println("Транспортное средство поехало");
     }
 }

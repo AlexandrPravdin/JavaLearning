@@ -3,7 +3,7 @@ package ru.mirea.zad6_1_1;
 
 public class MovablePoint implements Movable {
 
-    protected int x,y,xSpeed,ySpeed;
+    protected int x, y, xSpeed, ySpeed;
 
     public MovablePoint(int x, int y, int xSpeed, int ySpeed) {
         this.x = x;

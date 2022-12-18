@@ -9,7 +9,7 @@ public class Circle {
     private double perimeter;
 
     public Circle() {
-        radious = 1 + (int)(Math.random() * 20);
+        radious = 1 + (int) (Math.random() * 20);
         perimeter = radious * 3.14 * 2.0;
     }
 

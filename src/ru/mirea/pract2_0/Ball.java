@@ -30,7 +30,7 @@ public class Ball {
         this.y = y;
     }
 
-    public void move(double xDisp, double yDisp){
+    public void move(double xDisp, double yDisp) {
         this.x += xDisp;
         this.y += yDisp;
     }

@@ -1,10 +1,13 @@
 package ru.mirea.pract3_0;
 
-public abstract class Shape{
+public abstract class Shape {
     protected String color;
     protected boolean filled;
 
-    public Shape(){};
+    public Shape() {
+    }
+
+    ;
 
     public Shape(String color) {
         this.color = color;

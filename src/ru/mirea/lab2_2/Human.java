@@ -1,15 +1,15 @@
 package ru.mirea.lab2_2;
 
-public class Human implements Head, Hand, Leg{
+public class Human implements Head, Hand, Leg {
 
-    public void DoFighting(){
+    public void DoFighting() {
         DoMove();
         DoThink();
         DoFight();
         System.out.println("Fight is win");
     }
 
-    public void DoEating(){
+    public void DoEating() {
         DoSit();
         DoBendOver();
         DoEat();

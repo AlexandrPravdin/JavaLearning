@@ -1,6 +1,6 @@
 package ru.mirea.pract3_1;
 
-public class MovableCircle implements Movable{
+public class MovableCircle implements Movable {
     private int radius;
     private MovablePoint center;
 
@@ -8,11 +8,18 @@ public class MovableCircle implements Movable{
     }
 
     @Override
-    public void moveUp() {}
+    public void moveUp() {
+    }
+
     @Override
-    public void moveDown() {}
+    public void moveDown() {
+    }
+
     @Override
-    public void moveLeft() {}
+    public void moveLeft() {
+    }
+
     @Override
-    public void moveRight() {}
+    public void moveRight() {
+    }
 }

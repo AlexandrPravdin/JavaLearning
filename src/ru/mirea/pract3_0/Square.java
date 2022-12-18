@@ -1,12 +1,15 @@
 package ru.mirea.pract3_0;
 
-public abstract class Square extends  Rectangle{
+public abstract class Square extends Rectangle {
     protected double side;
-    public Square() {}
+
+    public Square() {
+    }
 
     public Square(double side) {
         this.side = side;
     }
+
     public Square(double side, String color, boolean filled) {
         this.side = side;
         this.color = color;

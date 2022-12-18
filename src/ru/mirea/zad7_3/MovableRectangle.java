@@ -1,6 +1,6 @@
 package ru.mirea.zad7_3;
 
-public class MovableRectangle implements Movable{
+public class MovableRectangle implements Movable {
     private MovablePoint topLeft, bottomRight;
 
     public MovableRectangle(MovablePoint topLeft, MovablePoint bottomRight) {
@@ -36,7 +36,7 @@ public class MovableRectangle implements Movable{
         System.out.println("Прямоугольник движется вверх");
     }
 
-    void SpeedTest(){
+    void SpeedTest() {
         if (topLeft.Speed == bottomRight.Speed) System.out.println("Скорость одинаковая");
         else System.out.println("Скорость различается на " + (topLeft.Speed - bottomRight.Speed));
     }

@@ -22,7 +22,7 @@ public class numb4 {
 
         int newN = 0, count = 0;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 == 0) newN ++;
+            if (arr[i] % 2 == 0) newN++;
         }
 
         System.out.println();

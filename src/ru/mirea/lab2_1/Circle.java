@@ -27,11 +27,11 @@ public class Circle {
         this.color = color;
     }
 
-    public double Area () {
+    public double Area() {
         return 3.14 * radius * radius;
     }
 
-    public double Leinght () {
+    public double Leinght() {
         return 2 * 3.14 * radius;
     }
 

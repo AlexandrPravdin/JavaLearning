@@ -5,7 +5,7 @@ public class Tester {
     private int N = 5;
 
     public Tester() {
-        for (int i = 0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             arr[i] = new Circle();
             System.out.println(arr[i]);
         }
@@ -14,7 +14,7 @@ public class Tester {
     void Biggest() {
         Circle c = arr[0];
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i].getRadious() > c.getRadious()){
+            if (arr[i].getRadious() > c.getRadious()) {
                 c = arr[i];
             }
         }
@@ -24,7 +24,7 @@ public class Tester {
     void Sort() {
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
-                if (arr[j].getRadious() > arr[i].getRadious()){
+                if (arr[j].getRadious() > arr[i].getRadious()) {
                     Circle trash = arr[i];
                     arr[i] = arr[j];
                     arr[j] = trash;

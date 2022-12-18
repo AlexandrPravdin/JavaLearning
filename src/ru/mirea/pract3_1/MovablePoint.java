@@ -1,6 +1,6 @@
 package ru.mirea.pract3_1;
 
-public class MovablePoint implements Movable{
+public class MovablePoint implements Movable {
     int x;
     int y;
     int xSpeed;
@@ -19,11 +19,18 @@ public class MovablePoint implements Movable{
     }
 
     @Override
-    public void moveUp() {}
+    public void moveUp() {
+    }
+
     @Override
-    public void moveDown() {}
+    public void moveDown() {
+    }
+
     @Override
-    public void moveLeft() {}
+    public void moveLeft() {
+    }
+
     @Override
-    public void moveRight() {}
+    public void moveRight() {
+    }
 }

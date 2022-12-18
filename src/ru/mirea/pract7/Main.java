@@ -6,7 +6,7 @@ public class Main {
         Player p2 = new Player();
         p1.FeelMeBro();
         p2.FeelMeBro();
-        Game g = new Game(p1,p2);
+        Game g = new Game(p1, p2);
         g.startGame();
     }
 }

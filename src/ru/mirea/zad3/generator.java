@@ -13,7 +13,7 @@ public class generator {
     void growing() {
         boolean count = true;
         for (int i = 0; i < 3; i++) {
-            if (arr[i] > arr[i + 1]){
+            if (arr[i] > arr[i + 1]) {
                 count = false;
                 break;
             }
